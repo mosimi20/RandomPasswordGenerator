@@ -1,4 +1,4 @@
-#This program will generate passwords with lengths of your choice.
+#This is a simple program that will generate passwords with lengths of your choice.
 
 import random
 
