@@ -5,7 +5,7 @@ import random
 print('Hi, please enter the length of the expected password: ')
 passLength = int(input())
 
-characterUniverse = 'abcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+-=:|'
+characterUniverse = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+-=:|'
 
 generatedPassword = ''.join(random.sample(characterUniverse,passLength))
 
