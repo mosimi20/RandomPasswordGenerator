@@ -31,7 +31,7 @@ def password_generator(cbl, passLength):
     printable = list(printable)
     random.shuffle(printable)
 
-#generate a random pasword
+# generate a random pasword
 
     random_password = random.choices(printable, k=passLength)
 
@@ -66,7 +66,7 @@ def password_combo():
 
 def fetch_string_constant(choice_list):
 
-# return a string constant based on the user's choice as reflected on the Boolean list above
+# return a string constant based on the user choice as reflected on the Boolean list above
 
     string_constant = ''
 
